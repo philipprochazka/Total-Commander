@@ -1,0 +1,30 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>times</title>
+<style type="text/css">
+p {
+line-height:200%;
+letter-spacing:-0.2px;
+}
+.text {
+color:#F9F9F0;
+}
+</style>
+<script type="text/javascript">
+function Watch() {
+var now = new Date(); 
+var times = (now.getTime() / (1000)); 
+var times = Math.round(times);
+document.getElementById("digital_watch").innerHTML =  "<span class='text'>Количество секунд, истекших<br>с 1 января 1970 года</span><br>" + times ;
+setTimeout("Watch()", 1000);
+}
+</script>
+</head>
+<body style=background-color:#02222C>
+<center>
+<p id="digital_watch" style="color:#DA00A0; font-size: 20px; font-weight: bold; text-align:center; padding:10px; margin:10px"></p>
+<script type="text/javascript">Watch(); </script>
+</center>
+</body>
+</html>

@@ -1,0 +1,4 @@
+12345\
+6789\
+Name.txt
+Examle.au3

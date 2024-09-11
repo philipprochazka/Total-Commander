@@ -1,0 +1,6 @@
+Fonts è Windows
+%WINDIR%\Fonts\
+%WINDIR%\
+TC è TC Plugins
+%COMMANDER_PATH%\
+%COMMANDER_PATH%\Plugins\

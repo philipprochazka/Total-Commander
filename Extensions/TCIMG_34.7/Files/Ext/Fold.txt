@@ -1,0 +1,4 @@
+״נטפעû
+%WINDIR%\Fonts\
+Windows
+%WINDIR%\

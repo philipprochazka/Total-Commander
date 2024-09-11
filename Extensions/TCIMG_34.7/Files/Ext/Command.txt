@@ -1,0 +1,6 @@
+Замена в буфера обмена
+tcimg=$pmpm_EditClipN
+Копирование с добавлением даты
+tcimg=$pmpm_CopyN
+Информация объекта под курсором
+tcimg=$pmpm_InfosO

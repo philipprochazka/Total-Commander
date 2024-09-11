@@ -1,0 +1,523 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=Windows-1251">
+  <title>Htm2Txt</title>
+ </head>
+ <body>
+<!-- https://t.me/tcimg -->
+<!-- Преобразование html в txt - см. Дополнение №15 режим 74 -->
+<!-- команда для просмотра результата: sends=`$f209\Htm2Txt.htm textv=GLOBALSENDS<x1>||viewtext<%P%N|0|0|0|0|Consolas>||pos<1> -->
+  <h1>EXAMPLE FOR FORMATTING HTML IN TXT</h1>
+
+
+  <p><strong>List teg &#60;ol&#62;, &#60;ul&#62; :</strong></p>
+  <ol>
+    <li>1_Level_Item_Line_1<br>1_Level_Item_Line_2<br>1_Level_Item_Line_3<br>1_Level_Item_Line_4</li>
+    <li>1_Level_Item</li>
+      <ol start=5>
+        <li>2_Level_Item</li>
+        <li>2_Level_Item</li>
+        <li>2_Level_Item</li>
+        <li>2_Level_Item</li>
+      </ol>
+    <li>1_Level_Item</li>
+    <li>1_Level_Item</li>
+      <ol type="A" start=5>
+        <li>2_Level_Item</li>
+        <li>2_Level_Item</li>
+          <ol type="I" start=-2>
+            <li>3_Level_Item</li>
+            <li>3_Level_Item</li>
+            <li>3_Level_Item</li>
+            <li>3_Level_Item</li>
+            <li>3_Level_Item</li>
+            <li>3_Level_Item</li>
+          </ol>
+        <li>2_Level_Item</li>
+        <li>2_Level_Item</li>
+        <li>2_Level_Item</li>
+        <li>2_Level_Item</li>
+      </ol>
+    <li>1_Level_Item</li>
+    <li>1_Level_Item</li>
+      <ol reversed type="a">
+        <li>2_Level_Item</li>
+        <li>2_Level_Item</li>
+        <li>2_Level_Item</li>
+        <li>2_Level_Item</li>
+          <br>
+          <ul type="disc">
+              <li>3_Level_Item</li>
+              <li>3_Level_Item</li>
+              <li>3_Level_Item</li>
+          </ul>
+          <br>
+          <ul type="circle">
+              <li>3_Level_Item</li>
+              <li>3_Level_Item</li>
+              <li>3_Level_Item</li>
+          </ul>
+          <br>
+          <ul type="square">
+              <li>3_Level_Item</li>
+              <li>3_Level_Item</li>
+              <li>3_Level_Item</li>
+          </ul>
+          <br>
+          <ul type="none">
+              <li>3_Level_Item</li>
+              <li>3_Level_Item</li>
+              <li>3_Level_Item</li>
+          </ul>
+          <br>
+        <li>2_Level_Item</li>
+        <li>2_Level_Item</li>
+        <li>2_Level_Item</li>
+      </ol>
+    <li>1_Level_Item</li>
+    <li>1_Level_Item</li>
+    <li>1_Level_Item</li>
+    <li>1_Level_Item</li>
+  <p><strong>List teg &#60;menu&#62; 1:</strong></p>
+  <menu>
+   <li>Line_1</li>
+   <li>Line_2</li>
+   <li>Line_3</li>
+   <li>Line_4</li>
+   <li>Line_5</li>
+  </menu>
+  </ol>
+
+  ----------------------------------------<br>
+
+  <p><strong>List teg &#60;ol&#62; style=type:</strong></p>
+  
+  <ol style="list-style-type: decimal;" start=3000>
+    <li>Level_Item_Decimal_1</li>
+    <li>Level_Item_Decimal_2</li>
+    <li>Level_Item_Decimal_3</li>
+      <ol style="list-style-type: upper-roman;" start=5>
+        <li>2_Level_Item_Roman</li>
+        <li>2_Level_Item_Roman</li>
+        <li>2_Level_Item_Roman</li>
+        <li>2_Level_Item_Roman</li>
+      </ol>
+    <li>Level_Item_Decimal_4</li>
+    <li>Level_Item_Decimal_5</li>
+    <li>Level_Item_Decimal_6</li>
+    <li>Level_Item_Decimal_7</li>
+      <ol style="list-style-type: upper-latin;" start=100>
+        <li>2_Level_Item_Latin</li>
+        <li>2_Level_Item_Latin</li>
+        <li>2_Level_Item_Latin</li>
+        <li>2_Level_Item_Latin</li>
+      </ol>
+    <li>Level_Item_Decimal_8</li>
+    <li>Level_Item_Decimal_9</li>
+    <li>Level_Item_Decimal_10</li>
+    <li>Level_Item_Decimal_11</li>
+      <ol style="list-style-type: armenian;" start=1000>
+        <li>2_Level_Item_Armenian</li>
+        <li>2_Level_Item_Armenian</li>
+        <li>2_Level_Item_Armenian</li>
+        <li>2_Level_Item_Armenian</li>
+        <li>2_Level_Item_Armenian</li>
+        <li>2_Level_Item_Armenian</li>
+        <li>2_Level_Item_Armenian</li>
+        <li>2_Level_Item_Armenian</li>
+        <li>2_Level_Item_Armenian</li>
+      </ol>
+    <li>Level_Item_Decimal_12</li>
+    <li>Level_Item_Decimal_13</li>
+    <li>Level_Item_Decimal_14</li>
+    <li>Level_Item_Decimal_15</li>
+      <ol style="list-style-type: georgian;" start=1000>
+        <li>2_Level_Item_Georgian</li>
+        <li>2_Level_Item_Georgian</li>
+        <li>2_Level_Item_Georgian</li>
+        <li>2_Level_Item_Georgian</li>
+        <li>2_Level_Item_Georgian</li>
+        <li>2_Level_Item_Georgian</li>
+        <li>2_Level_Item_Georgian</li>
+        <li>2_Level_Item_Georgian</li>
+        <li>2_Level_Item_Georgian</li>
+      </ol>
+    <li>Level_Item_Decimal_16</li>
+    <li>Level_Item_Decimal_17</li>
+    <li>Level_Item_Decimal_18</li>
+      <ol style="list-style-type: decimal-leading-zero;" start=0>
+        <li>2_Level_Item_decimal-leading-zero</li>
+        <li>2_Level_Item_decimal-leading-zero</li>
+        <li>2_Level_Item_decimal-leading-zero</li>
+        <li>2_Level_Item_decimal-leading-zero</li>
+          <ol style="list-style-type: lower-greek;">
+            <li>3_Level_Item_Greek</li>
+            <li>3_Level_Item_Greek</li>
+            <li>3_Level_Item_Greek</li>
+            <li>3_Level_Item_Greek</li>
+            <li>3_Level_Item_Greek</li>
+            <li>3_Level_Item_Greek</li>
+              <ol style="list-style-type: lower-roman;">
+                <li>4_Level_Item_Roman</li>
+                <li>4_Level_Item_Roman</li>
+                <li>4_Level_Item_Roman</li>
+                <li>4_Level_Item_Roman</li>
+                <li>4_Level_Item_Roman</li>
+              <ol style="list-style-type: upper-latin;">
+                <li>5_Level_Item_Latin</li>
+                <li>5_Level_Item_Latin</li>
+                <li>5_Level_Item_Latin</li>
+                <li>5_Level_Item_Latin</li>
+                <li>5_Level_Item_Latin</li>
+                <li>5_Level_Item_Latin</li>
+                <li>5_Level_Item_Latin</li>
+                <li>5_Level_Item_Latin</li>
+                <li>5_Level_Item_Latin</li>
+                <li>5_Level_Item_Latin</li>
+              </ol>
+                <li>4_Level_Item_Roman</li>
+                <li>4_Level_Item_Roman</li>
+                <li>4_Level_Item_Roman</li>
+                <li>4_Level_Item_Roman</li>
+                <li>4_Level_Item_Roman</li>
+                <li>4_Level_Item_Roman</li>
+                <li>4_Level_Item_Roman</li>
+                <li>4_Level_Item_Roman</li>
+              </ol>
+            <li>3_Level_Item_Greek</li>
+            <li>3_Level_Item_Greek</li>
+            <li>3_Level_Item_Greek</li>
+            <li>3_Level_Item_Greek</li>
+            <li>3_Level_Item_Greek</li>
+            <li>3_Level_Item_Greek</li>
+            <li>3_Level_Item_Greek</li>
+            <li>3_Level_Item_Greek</li>
+            <li>3_Level_Item_Greek</li>
+          </ol>
+        <li>2_Level_Item_decimal-leading-zero</li>
+        <li>2_Level_Item_decimal-leading-zero</li>
+        <li>2_Level_Item_decimal-leading-zero</li>
+        <li>2_Level_Item_decimal-leading-zero</li>
+        <li>2_Level_Item_decimal-leading-zero</li>
+        <li>2_Level_Item_decimal-leading-zero</li>
+      </ol>
+    <li>Level_Item_Decimal_19</li>
+    <li>Level_Item_Decimal_20</li>
+    <li>Level_Item_Decimal_21</li>
+  </ol>
+  ----------------------------------------<br>
+  <ol style="list-style-type: armenian;" start=9997>
+    <li>1_Level_Item_Armenian</li>
+    <li>1_Level_Item_Armenian</li>
+    <li>1_Level_Item_Armenian</li>
+    <li>1_Level_Item_Armenian</li>
+    <li>1_Level_Item_Armenian</li>
+    <li>1_Level_Item_Armenian</li>
+    <li>1_Level_Item_Armenian</li>
+  </ol>
+  ----------------------------------------<br>
+  <ol style="list-style-type: georgian;" start=19997>
+    <li>1_Level_Item_Georgian</li>
+    <li>1_Level_Item_Georgian</li>
+    <li>1_Level_Item_Georgian</li>
+    <li>1_Level_Item_Georgian</li>
+    <li>1_Level_Item_Georgian</li>
+    <li>1_Level_Item_Georgian</li>
+  </ol>
+  ----------------------------------------<br>
+  <ol style="list-style-type: upper-roman;" start=3997>
+    <li>1_Level_Item_Georgian</li>
+    <li>1_Level_Item_Georgian</li>
+    <li>1_Level_Item_Georgian</li>
+    <li>1_Level_Item_Georgian</li>
+    <li>1_Level_Item_Georgian</li>
+    <li>1_Level_Item_Georgian</li>
+  </ol>
+  ----------------------------------------<br>
+  <p><strong>Replacing mnemonics</strong></p>
+  <br>&amp;amp; ==&#62; &amp; (HTML 4)
+  <br>&amp;phone; ==&#62; &#x260E; (HTML 5)
+  <br>
+  <br>&#38;&#35;&#49;&#49;&#57;&#57;&#54;&#52;&#59; ==&#62; &#119964;
+  <br>&#x0026;&#35;&#120;&#49;&#68;&#52;&#57;&#67;&#59; ==&#62; &#x1D49C;
+  <br>
+  ----------------------------------------<br>
+
+  <p><strong>List teg &#60;pre&#62; 2:</strong></p>
+  <pre>
+    Line1
+    Line2
+    Line3
+  </pre>
+
+  ----------------------------------------<br>
+
+  <p><strong>List teg &#60;menu&#62; 2:</strong></p>
+  <menu>
+   <li>Line_1</li>
+   <li>Line_2</li>
+   <li>Line_3</li>
+   <li>Line_4</li>
+   <li>Line_5</li>
+   <br>Comment_1
+   <br>Comment_2
+  </menu>
+
+  ----------------------------------------<br>
+
+  <p><strong>List teg &#60;dir&#62;:</strong></p>
+  <dir>
+   <li>cat 1</li>
+   <li>cat 2</li>
+   <li>cat 3</li>
+  </dir>
+
+  ----------------------------------------<br>
+
+   <legend>Title teg &#60;input&#62; 1</legend>
+     <input type="checkbox">Text
+      Line1;<br>
+     <input type="checkbox">Text
+      Line2;<br>
+     <input type="checkbox">Text Line3;
+      <p><input type="submit"></p>
+  </fieldset>
+
+  ----------------------------------------<br>
+
+   <form>
+    <b>Title teg &#60;input&#62; 2</b>
+    <p><input type="radio" name="answer" value="a1">Text Line1<br>
+    <input type="radio" name="answer" value="a2">Text Line2<br>
+    <input type="radio" name="answer" value="a3">Text Line3</p>
+    <p><input type="submit"></p>
+   </form>
+
+  ----------------------------------------<br>
+
+  <table width="100%" border="1" cellspacing="0" cellpadding="4">
+   <caption>TABLE 1</caption>
+   <tr>
+    <th>&nbsp;</th><th>№1</th>
+    <th>№2</th><th>№3</th>
+   </tr>
+   <tr>
+    <td>a)</td><td>5</td>
+    <td>2</td><td>1</td>
+   </tr>
+   <tr>
+    <td>b)</td><td>6</td>
+    <td>8</td><td>2</td>
+   </tr>
+   <tr>
+    <td>c)</td><td>5</td>
+    <td>5</td><td>1</td>
+   </tr>
+  </table>
+
+  ----------------------------------------<br>
+
+  <p>Program code, Teg &#60;code&#62;</p>
+  <p><code>
+    function checkParent (src, dest) {<br>
+     while (src != null) {<br>
+       if (src.tagName == dest) return src<br>
+        src = src.parentElement<br>
+     }<br>
+     return null<br>
+    }</code></p>
+
+  ----------------------------------------<br>
+
+  <table width="450" cellpadding="2" cellspacing="0" border="1" rules="groups">
+   <caption>TABLE 2</caption>
+    <colgroup width="150">
+    <colgroup span="9" align="center" width="50">
+     <col span="5">
+     <col span="4">
+    </colgroup>
+    <tr>
+     <td>&nbsp;</td><td>1995</td><td>1996</td><td>1997</td>
+     <td>1998</td><td>1999</td><td>2000</td><td>2001</td>
+     <td>2002</td><td>2003</td>
+    </tr>
+    <tr>
+     <td>Oil</td><td>5</td><td>7</td><td>2</td><td>8</td>
+     <td>3</td><td>34</td><td>62</td><td>74</td><td>57</td>
+    </tr>
+    <tr>
+     <td>Gold</td><td>3</td> <td>6</td><td>4</td><td>6</td>
+     <td>4</td><td>69</td><td>72</td><td>56</td><td>47</td>
+    </tr>
+    <tr>
+     <td>Wood</td><td>5</td><td>8</td><td>3</td><td>4</td>
+     <td>7</td><td>73</td><td>79</td><td>34</td><td>86</td>
+    </tr>
+   </table>
+
+  ----------------------------------------<br>
+
+  <p>Choose Value:</p>
+  <p><input list="character">
+   <datalist id="character">
+    <option value="Value 1"></option>
+    <option value="Value 2"></option>
+    <option value="Value 3"></option>
+   </datalist></p>
+
+  ----------------------------------------<br>
+
+ <dl>
+  <dt>GIF</dt>
+  <dd>Format of graphic files 1</dd>
+  <dt>JPEG</dt>
+  <dd>Format of graphic files 2</dd>
+ </dl>
+
+  ----------------------------------------<br>
+
+ <details>Something hidden</details>
+
+  ----------------------------------------<br>
+
+  <p>Example program, Teg &#60;listing&#62;</p>
+  <listing>
+   while (<>) {
+     $org=$_;
+     s/\\["']//g;
+     s/\/\/[^:].*//;
+     s/\/\*.*\*\///g;
+     if ($comment == 1) {
+       if (s/.*\*\///) {
+         $comment = 0;
+       }
+       else {
+         next;
+       }
+     }
+     if (s/\/\*.*//) {
+       $comment = 1;
+     }
+     if (/^\s*#/) {
+       next;
+     }
+   }</listing>
+
+  ----------------------------------------<br>
+
+  <form action="handler.php">
+   <p><select>
+   <optgroup label="Color">
+    <option value="c1">Orange</option>
+    <option value="c2">Citric</option>
+    <option value="c3">Peach</option>
+   </optgroup>
+   <optgroup label="Tone">
+    <option value="s1">Light</option>
+    <option value="s2">Normal</option>
+    <option value="s3">Dark</option>
+   </optgroup>
+   </select></p>
+  </form>
+
+  ----------------------------------------<br>
+  <p>Example program, Teg &#60;xmp&#62;</p>
+  <xmp>
+   while (<>) {
+     $org=$_;
+     s/\\["']//g;
+     s/\/\/[^:].*//;
+     s/\/\*.*\*\///g;
+     if ($comment == 1) {
+       if (s/.*\*\///) {
+         $comment = 0;
+       }
+       else {
+         next;
+       }
+     }
+     if (s/\/\*.*//) {
+       $comment = 1;
+     }
+     if (/^\s*#/) {
+       next;
+     }
+   }</xmp>
+  ----------------------------------------<br>
+  <table width="600" border="1">
+   <tbody align="right">
+    <tr>
+     <td>Element 1</td>
+     <td>Element 2</td> 
+    </tr> 
+   </tbody>
+  </table> 
+  ----------------------------------------<br>
+  <article>
+   <p><time>1957-10-04</time> запущен первый искусственный спутник Земли.</p>
+   <p><time>1960-08-19</time> первый полет собак в космос.</p>
+   <p><time>1961-04-12</time> первый полет человека в космос.</p>
+   <p><time>1963-06-16</time> первый полет женщины-космонавта.</p>
+   <p><time>1969-07-21</time> высадка человека на Луну.</p>
+  </article>
+  ----------------------------------------<br>
+
+  <table width="100%" cellspacing="0" border="1">
+  <caption>TABLE 3</caption>
+   <tr>
+    <th>Browser</th>
+    <th colspan="3">Internet Explorer</th>
+    <th colspan="3">Opera</th>
+    <th colspan="2">Firefox</th>
+   </tr>
+   <tr>
+    <th>Version</th>
+    <td>5.5</td>
+    <td>6.0</td> 
+    <td>7.0</td>
+    <td>7.0</td>
+    <td>8.0</td>
+    <td>9.0</td>
+    <td>1.0</td>
+    <td>2.0</td>
+   </tr>
+   <tr>
+    <th>Supported</th>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+   </tr>
+  </table>
+  ----------------------------------------<br>
+
+  <p>Example program, Teg &#60;plaintext&#62;</p>
+   <p>Demonstration of the method of the selection</p>
+  <plaintext>
+   while (<>) {
+     $org=$_;
+     s/\\["']//g;
+     s/\/\/[^:].*//;
+     s/\/\*.*\*\///g;
+     if ($comment == 1) {
+       if (s/.*\*\///) {
+         $comment = 0;
+       }
+       else {
+         next;
+       }
+     }
+     if (s/\/\*.*//) {
+       $comment = 1;
+     }
+     if (/^\s*#/) {
+       next;
+     }
+   }
+ </body>
+</html>

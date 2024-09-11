@@ -1,0 +1,15 @@
+UniqueId           : 745KJBKSDF34534
+Number             : 0
+Path               : \\?\xxxxx
+Manufacturer       :
+Model              : KINGSTON KJGJYF6576
+UniqueId           : 1231KN462340874
+Number             : 1
+Path               : \\?\yyyyyyy
+Manufacturer       :
+Model              : WDC WERPOIWRNLK234
+UniqueId           : 79078YIOYUURTY
+Number             : 2
+Path               : \\?\zzzzzzzz
+Manufacturer       : Generic-
+Model              : xD/SD/M.S.

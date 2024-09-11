@@ -1,0 +1,8 @@
+Name
+$f212\List0.txt
+Read
+$f212\List1.txt
+Data
+$f212\List2.txt
+Arhiv
+$f212\List3.txt

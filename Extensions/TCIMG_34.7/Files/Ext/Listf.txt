@@ -1,0 +1,8 @@
+C:\Program FILES\WINDOWS media Player\WMPLAYER.EXE
+%windir%\sySTem32\
+%commander_path%\wcmicons.DLL
+C:\WINDOWS\SYSTEM32\DRIVERSTORE\
+c:\windows\fonts\
+C:\WINDOWS\Fonts\ARiAL.ttf
+D:\12345\test.txt
+C:\PROGRAM FILES\MICROSOFT

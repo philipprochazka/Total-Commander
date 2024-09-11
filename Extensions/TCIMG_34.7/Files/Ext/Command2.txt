@@ -1,0 +1,8 @@
+Name
+tcimg=$pmpm_CopyR
+www
+tcimg=$amam_InfosR
+Read
+tcimg=$amam_TestParam
+Arhiv
+tcimg=$amam_RarParam

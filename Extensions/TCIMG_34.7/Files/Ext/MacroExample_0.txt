@@ -1,0 +1,8 @@
+ ;; MacroExample_0.txt
+ ;; https://t.me/tcimg
+ ;; пример запуска команд из файла с помощью команды macro в режиме 0 и 6
+ ;; macro=$f212\MacroExample_0.txt||0
+ ;; macro=$f212\MacroExample_0.txt||6
+
+folds="%p"||x||##rndm<1|8>||jump<3>
+creat="%p"||Name.txt

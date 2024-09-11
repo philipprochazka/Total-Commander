@@ -1,0 +1,8 @@
+^Name.*
+C:\Test\1\
+^zzz.*
+C:\Test\2\
+^www.*
+C:\Test\3\
+^\d\d\d_b\d
+C:\Test\4\

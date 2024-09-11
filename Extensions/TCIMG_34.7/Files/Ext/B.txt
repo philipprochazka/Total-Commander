@@ -1,0 +1,67 @@
+PathFile:D:\Test\ONENOTE.EXE
+FileVersion:16.0.14332.20651
+DefaultLangCodepage:000004E4
+FileSize:2385520 bytes
+TimeDateStamp:2024/02/27 23:41:39 UTC
+LastModifiedDate:2024/03/20 06:12:03
+CreationDate:2024/03/20 15:17:35
+LastAccessDate:2024/05/11 11:53:18
+FileAttributes:A
+CountIcons:3
+—————————————————————————
+MD5:A568B467CB070A40C5693C67BB85EB88
+SHA1:4D6135B815821802589E08B8C29DF1FD98B7C8CE
+MadeFor:x64 machine
+Type:I64-bit application
+—————————————————————————
+NumberOfSections:0x00000008
+SymbolsPointer:0x00000000
+NumberOfSymbols:0x00000000
+SizeOfOptionalHeader:0x000000F0
+Characteristics:0x00000022
+—————————————————————————
+Magic:0x0000020B
+LinkerVersion:14.28
+SizeOfCode:0x00135C00
+SizeOfInitializedData:0x0010B600
+SizeOfUninitializedData:0x00000000
+AddressOfEntryPoint:0x0002FE00
+BaseOfCode:0x00001000
+BaseOfData:0x43BA0000
+ImageBase:0x00007FF6
+SectionAlignment:0x00001000
+FileAlignment:0x00000200
+RequiredOSversion:6.1
+ImageVersion:0.0
+SubsystemVersion:6.1
+Win32VersionValue:0
+SizeOfImage:0x00246000
+SizeOfHeaders:0x00000400
+CheckSum:0x0024E209
+Subsystem:2
+DllCharacteristics:0x0000C160
+SizeOfStackReserve:0x00100000
+SizeOfStackCommit:0x00000000
+SizeOfHeapReserve:0x00001000
+SizeOfHeapCommit:0x00000000
+LoaderFlags:0x00100000
+NumberOfRvaAndSizes:0x00000000
+—————————————————————————
+Signature:0x4D5A
+BytesOnLastPage:0x00000090
+TotalPages:0x00000003
+Relocations:0x00000000
+SizeofHeader:0x00000004
+MinimumExtra:0x00000000
+MaximumExtra:0x0000FFFF
+StackSegment:0x00000000
+StackPointer:0x000000B8
+InstructionPointer:0x00000000
+CodeSegment:0x00000000
+RelocationTableOffset:0x00000040
+OverlayNumber:0x00000000
+Reserved:
+OEMIdentifier:0x00000000
+OEMInformation:0x00000000
+Reserved2:
+NewHeaderAddress:0x00000120

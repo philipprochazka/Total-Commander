@@ -1,0 +1,9 @@
+ ;; MacroExample_2.txt
+ ;; https://t.me/tcimg
+ ;; пример запуска команд из файла с помощью команды macro в режиме 2 и 3
+ ;; macro=$f212\MacroExample_2.txt||2
+ ;; macro=$f212\MacroExample_2.txt||3
+
+start=notepad
+fonts=viewer||FontViewer
+timesx

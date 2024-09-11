@@ -1,0 +1,6 @@
+ ;; ShortcutsBarMenu.txt
+ ;; https://t.me/tcimg
+ ;; —оздать на активной панели инструментов панель €рлыков в виде меню из *.lnk открытой папки в другой панели (ввод имени панели в диалоговом окне)
+ ;; macro=$f212\ShortcutsBarMenu.txt||0
+
+global copyy=$f201ShortcutsBarMenu.bar||"%p"//0||<input=BOX_U6> blist=@GLOBALCOPYY<1>||##path<0|0|1>||formt<path3>||$$@CRLF||$$path<6> clist=@GLOBALCOPYY<1>||##path<0|0|1> alist=@$f250TCIMG.dll,30||##path<0|0|1> slist=@$f253||##path<0|0|1> xlist=@[tc=TP]||##path<0|0|1>||formt<path3>||$$\ textt=GLOBALCOPYY<1>||@#@#@#@!!GLOBALSLIST<1>||@#@#@!!GLOBALBLIST<1>||@##@!!GLOBALXLIST<1>||@#!#@!!GLOBALALIST<1>||@#@!!GLOBALBLIST<2>||backup<0> sends=TOTALCMD#BAR#DATA@CRLFGLOBALCLIST<1>@CRLF@CRLFTOTALCMD.EXE,12@CRLFѕанель~~€рлыков~~GLOBALBLIST<2>@CRLF@CRLF1??-2 barbt=1||-1||butfrom<GLOBALSENDS<t>>

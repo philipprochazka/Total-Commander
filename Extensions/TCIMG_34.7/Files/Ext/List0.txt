@@ -1,0 +1,4 @@
+Name.txt
+Name.zip
+Folder1\
+Folder2\

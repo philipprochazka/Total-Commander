@@ -1,0 +1,7 @@
+ ;; MacroExample_1.txt
+ ;; https://t.me/tcimg
+ ;; пример запуска команд из файла с помощью команды macro в режиме 1
+ ;; macro=$f212\MacroExample_1.txt||1 GLOBALSENDS<a> GLOBALZENDS<a>
+
+sends=1|2|3|4|5|6|7|8|9!!-4
+zends=-1??-1

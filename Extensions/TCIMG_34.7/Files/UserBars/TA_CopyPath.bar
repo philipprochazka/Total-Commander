@@ -1,0 +1,99 @@
+[Buttonbar]
+Buttoncount=24
+button2=C:\backup\Total-Commander\Extensions\TCIMG_34.7\User.dll,177
+cmd2=C:\backup\Total-Commander\Extensions\TCIMG_34.7\Files\UserBars\TA_SpecialPanel.bar
+param2=
+iconic2=
+menu2=Переход на панель TA_SpecialPanel.bar
+iconic3=0
+button4=C:\backup\Total-Commander\Extensions\TCIMG_34.7\User.dll,165
+cmd4=C:\backup\Total-Commander\Extensions\TCIMG_34.7\TCIMG.exe
+param4=pathb=xxxxxx14
+iconic4=-1
+menu4=Перейти к файлу.bar данной панели инструментов в TC
+cmd5=
+param5=
+path5=
+iconic5=0
+button6=C:\backup\Total-Commander\Extensions\TCIMG_34.7\User.dll,119
+cmd6=C:\backup\Total-Commander\Extensions\TCIMG_34.7\TCIMG.exe
+param6=barbt=1||-1||xxxxxx14
+path6=
+iconic6=
+menu6=Добавить заранее скопированную кнопку TC на данную панель
+cmd7=
+param7=
+path7=
+iconic7=0
+button8=C:\backup\Total-Commander\Extensions\TCIMG_34.7\User.dll,175
+cmd8=C:\backup\Total-Commander\Extensions\TCIMG_34.7\TCIMG.exe
+param8=lists=%Z%UL||##path<0|0|1>
+path8=
+iconic8=
+menu8=Копия исправленных %путей% в буфер
+button9=C:\backup\Total-Commander\Extensions\TCIMG_34.7\User.dll,175
+cmd9=C:\backup\Total-Commander\Extensions\TCIMG_34.7\TCIMG.exe
+param9=lists=%Z%UL||##path<0|0|1>||%%COMMANDER_PATH%%!!%%%%COMMANDER_PATH%%%%
+path9=
+iconic9=
+menu9=Копия исправленных %%путей%% в буфер
+button10=C:\backup\Total-Commander\Extensions\TCIMG_34.7\User.dll,175
+cmd10=C:\backup\Total-Commander\Extensions\TCIMG_34.7\TCIMG.exe
+param10=lists=%UL||##path<1>
+menu10=Копия в буфер ''ПУТИ'' в кавычках
+button11=C:\backup\Total-Commander\Extensions\TCIMG_34.7\User.dll,175
+cmd11=C:\backup\Total-Commander\Extensions\TCIMG_34.7\TCIMG.exe
+param11=lists=%UL||##path<1|0|1>
+menu11=Копия в буфер ''%ПУТИ%'' в кавычках
+button12=C:\backup\Total-Commander\Extensions\TCIMG_34.7\User.dll,175
+cmd12=C:\backup\Total-Commander\Extensions\TCIMG_34.7\TCIMG.exe
+param12=lists=%UL||##path<1|0|2>
+menu12=Копия в буфер ''ПУТИ без TC'' в кавычках
+button13=C:\backup\Total-Commander\Extensions\TCIMG_34.7\User.dll,175
+cmd13=C:\backup\Total-Commander\Extensions\TCIMG_34.7\TCIMG.exe
+param13=lists=%UL||##path<1|0|1>||$$~~''%%1''
+menu13=Копия в буфер ''ПУТЬ'' %1%
+button14=C:\backup\Total-Commander\Extensions\TCIMG_34.7\User.dll,175
+cmd14=C:\backup\Total-Commander\Extensions\TCIMG_34.7\TCIMG.exe
+param14=lists=%UL||##path<7>
+menu14=Копия в буфер ''ИМЕНА'' в кавычках
+button15=C:\backup\Total-Commander\Extensions\TCIMG_34.7\User.dll,175
+cmd15=C:\backup\Total-Commander\Extensions\TCIMG_34.7\TCIMG.exe
+param15=lists=%UL||##path<5>
+menu15=Копия в буфер ''ЧИСТЫЕ ИМЕНА'' в кавычках
+button16=C:\backup\Total-Commander\Extensions\TCIMG_34.7\User.dll,175
+cmd16=C:\backup\Total-Commander\Extensions\TCIMG_34.7\TCIMG.exe
+param16=lists=%UL||##path<0|0|1>||^^[||$$]
+menu16=Копия в буфер [%ПУТЬ%]
+button17=C:\backup\Total-Commander\Extensions\TCIMG_34.7\User.dll,175
+cmd17=C:\backup\Total-Commander\Extensions\TCIMG_34.7\TCIMG.exe
+param17=lists=%UL||##path<4>||^^•~~
+menu17=Копия в буфер • ИМЕНА
+button18=C:\backup\Total-Commander\Extensions\TCIMG_34.7\User.dll,175
+cmd18=C:\backup\Total-Commander\Extensions\TCIMG_34.7\TCIMG.exe
+param18=lists=%UL||##path<0|0|1>||^^CD~~||$$\
+menu18=Копия в буфер CD ПУТЬ\
+button19=C:\backup\Total-Commander\Extensions\TCIMG_34.7\User.dll,175
+cmd19=C:\backup\Total-Commander\Extensions\TCIMG_34.7\TCIMG.exe
+param19=lists=%UL||##path<0|1>||^^file://
+menu19=Копия в буфер file://ПУТЬ
+button20=C:\backup\Total-Commander\Extensions\TCIMG_34.7\User.dll,175
+cmd20=C:\backup\Total-Commander\Extensions\TCIMG_34.7\TCIMG.exe
+param20=lists=%UL||##path<1|0|1>||^^<TC>\Utilities\Scripting\AutoIt\AutoIt3.exe~~
+menu20=Копия в буфер AutoIt.exe ''ПУТЬ.au3''
+button21=C:\backup\Total-Commander\Extensions\TCIMG_34.7\User.dll,175
+cmd21=C:\backup\Total-Commander\Extensions\TCIMG_34.7\TCIMG.exe
+param21=lists=%UL||##path<6>||$$=path<0|0|1>
+menu21=Копия в буфер ИМЯ=%ПУТИ%
+button22=C:\backup\Total-Commander\Extensions\TCIMG_34.7\User.dll,175
+cmd22=C:\backup\Total-Commander\Extensions\TCIMG_34.7\TCIMG.exe
+param22=lists=%UL||##path<1>||\!!\\
+menu22=Копия в буфер ПУТИ с заменой / на //
+button23=C:\backup\Total-Commander\Extensions\TCIMG_34.7\User.dll,175
+cmd23=C:\backup\Total-Commander\Extensions\TCIMG_34.7\TCIMG.exe
+param23=lists=%UL||\!!\\||$$\''''||^^path<5>=''\''
+menu23=Копия в буфер "ИМЯ"="\"ПУ\\ТЬ\""
+button24=C:\backup\Total-Commander\Extensions\TCIMG_34.7\User.dll,175
+cmd24=C:\backup\Total-Commander\Extensions\TCIMG_34.7\TCIMG.exe
+param24=lists=%UL||\!!\\||^^@=''\''||$$\''\''%%1\''''
+menu24=Копия в буфер @="\"ПУ\\ТЬ\" \"%1\""
